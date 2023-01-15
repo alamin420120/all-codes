@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-text {
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 45px;
+
+
+}
+
+.secondary-text {
+    font-size: 45px;
+
+    color: #131313;
+}
+
+/* .text-primary {
+    color: #131313;
+} */
+
+.all-button {
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    margin-left: 630px;
+    margin-top: 50px;
+
+}
+
+.second-button {
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    margin-left: 800px;
+    margin-top: 30px;
+}
+
+.header {
+    background-color: rgba(255, 144, 14, 0.1);
+    ;
+}
+
+/* header styles */
+
+
+.banner-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.banner-description {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 30px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+    color: #424242;
+    font-size: 15px;
+}
+
+.banner-image img {
+
+    border-radius: 10px;
+    display: 50%;
+    margin-top: 70px;
+    margin-left: 50px;
+
+}
+
+.image-grid {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 75px;
+    margin-right: 700px;
+}
+
+.sec-sub {
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+    margin-left: 800px;
+}
+
+.sec-des {
+    font-size: 16px;
+    color: #727272;
+    margin-left: 800px;
+}
+
+.feature-title {
+    margin-top: 50px;
+    margin-left: 200px;
+    color: #131313;
+    font-size: 45px;
+}
+
+.feature-description {
+    color: #727272;
+    font-size: 16px;
+    margin-left: 200px;
+    margin-top: 24px;
+}
+
+/* features you love */
+.box {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+
+}
+
+.title-name {
+    font-size: 20px;
+    color: #131313;
+    margin-left: 200px;
+    margin-top: 30px;
+
+}
+
+.title-des {
+    font-size: 16px;
+    color: #727272;
+    margin-left: 200px;
+}
+
+.architect {
+
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 950px;
+    top: 2250px;
+}
+
+.fact-title {
+    margin-top: 500px;
+    font-size: 45px;
+    color: #131313;
+    margin-left: 235px;
+}
+
+.fact-des {
+    font-size: 16px;
+    color: #727272;
+    margin-left: 235px;
+    margin-bottom: 100px;
+}
+
+/* icon section */
+.boxes {
+    display: grid;
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241.83px;
+    height: 241.83px;
+    left: 531.92px;
+    top: 3663.08px;
+
+}
+
+.boxes-to {
+    display: grid;
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241.83px;
+    height: 241.83px;
+    left: 897.92px;
+    top: 3663.08px;
+
+}
+
+.boxes-three {
+    display: grid;
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241.83px;
+    height: 241.83px;
+    left: 1263.92px;
+    top: 3663.08px;
+
+}
+
+.boxes-four {
+    display: grid;
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 241.83px;
+    height: 241.83px;
+    left: 1629.92px;
+    top: 3663.08px;
+}
+
+.icon {
+    align-items: center;
+    margin-left: 95px;
+}
+
+.icon-to {
+    lign-items: center;
+    margin-left: 95px;
+}
+
+.icon-three {
+    align-items: center;
+    margin-left: 95px;
+}
+
+.icon-four {
+    align-items: center;
+    margin-left: 95px;
+}
+
+.number {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 45px;
+    color: #424242;
+}
+
+.achievement {
+    text-align: center;
+    color: #727272;
+    font-size: 20px;
+    padding-bottom: 200px;
+}
+
+.sponsor {
+    margin-top: 600px;
+    font-size: 45px;
+    color: #131313;
+    text-align: center;
+}
+
+.sponsor-description {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #727272;
+}
+
+.companies {
+
+    align-items: center;
+}
+
+.last-sec {
+    text-align: center;
+    margin-top: 150px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 1440px;
+    height: 100px;
+}
